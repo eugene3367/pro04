@@ -1,0 +1,6 @@
+package com.company.myapp.dao;
+
+public interface MemberDAO {
+	public List<MemberDTO> memberList() throws Exception;
+
+}

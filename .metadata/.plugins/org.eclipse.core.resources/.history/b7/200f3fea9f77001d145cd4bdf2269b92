@@ -1,0 +1,7 @@
+package com.company.myapp.dao;
+
+public interface FreeDAO {
+	public List<FreeDTO> freeList() throws Exception;
+
+
+}

@@ -1,0 +1,6 @@
+package com.company.myapp.dao;
+
+public interface BoardDAO {
+	public List<BoardDTO> boardList() throws Exception;
+
+}

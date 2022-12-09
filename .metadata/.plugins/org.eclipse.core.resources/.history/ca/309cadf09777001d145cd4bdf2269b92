@@ -1,0 +1,23 @@
+package com.company.myapp.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.company.myapp.service.BoardService;
+
+@Controller
+@RequestMapping("/board/")
+public class BoardController {
+	
+	@Autowired
+	private BoardService boardService;
+	
+	@GetMapping("list.do")		//board/list.do
+	public String getBoardList(Model model) throws Exception {
+		List<BoardDTO> boardList = boardService.boardList(); 
+		model.addAttribute("boardList", boardList);
+		return "board/boardList";
+	}
+
+}

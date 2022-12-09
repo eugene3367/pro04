@@ -1,0 +1,48 @@
+package com.company.myapp.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.company.myapp.dao.MemberDAO;
+import com.company.myapp.dto.MemberDTO;
+
+@Service
+public class MemberServiceImpl implements MemberService{
+
+	@Autowired
+	MemberDAO memberDao;
+	
+	@Override
+	public List<MemberDTO> memberList() throws Exception {
+		return memberDao.memberList();
+	}
+	
+	@Override
+	public MemberDTO getMember(String id) throws Exception {
+		return memberDao.getMember(id);
+	}
+	
+	@Override
+	public void memberInsert(MemberDTO dto) throws Exception {
+		memberDao.memberInsert(dto);		
+	}
+
+	@Override
+	public MemberDTO signIn(MemberDTO mdto) throws Exception {
+		return memberDao.signIn(mdto);
+	}
+
+	@Override
+	public MemberDTO loginCheck(MemberDTO mdto) throws Exception {
+		return memberDao.loginCheck(mdto);
+	}
+	
+	
+	
+	
+	
+	
+
+}

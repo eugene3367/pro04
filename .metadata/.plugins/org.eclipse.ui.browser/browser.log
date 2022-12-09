@@ -1,0 +1,12 @@
+
+12월 02, 2022 10:09:15.20 NEW SESSION
+12월 02, 2022 10:09:15.20 [3300:6556:1202/100915.201:ERROR:device_event_log_impl.cc(215)] [10:09:15.200] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 02, 2022 10:10:13.13 [3300:8936:1202/101013.130:ERROR:util.cc(133)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+12월 02, 2022 10:13:37.63 [4732:10452:1202/101337.635:ERROR:device_event_log_impl.cc(215)] [10:13:37.635] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 02, 2022 10:14:35.55 [4732:12524:1202/101435.557:ERROR:util.cc(133)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+12월 02, 2022 11:08:16.91 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+12월 02, 2022 11:08:17.86 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+12월 02, 2022 11:24:44.96 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+12월 02, 2022 12:52:00.83 [4732:13604:1202/125200.835:ERROR:mcs_client.cc(748)] Received close command, resetting connection.
+12월 02, 2022 14:50:20.49 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+12월 02, 2022 15:14:35.57 [4732:12728:1202/151435.573:ERROR:util.cc(133)] Can't create base directory: C:\Program Files\Google\GoogleUpdater

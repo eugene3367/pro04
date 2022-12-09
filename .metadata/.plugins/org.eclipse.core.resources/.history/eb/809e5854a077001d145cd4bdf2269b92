@@ -1,0 +1,17 @@
+package com.company.myapp.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class FreeServiceImpl implements FreeService {
+	
+	@Autowired
+	private FreeDAO freeDAO;
+
+	@Override
+	public List<FreeDTO> freeList() throws Exception {
+		return freeDAO.freeList();
+	}
+
+
+}

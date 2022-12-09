@@ -1,0 +1,6 @@
+package com.company.myapp.service;
+
+public interface MemberService {
+	public List<memberDTO> memberList() throws Exception;
+
+}

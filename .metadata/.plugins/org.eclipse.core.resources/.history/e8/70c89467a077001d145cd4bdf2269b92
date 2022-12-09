@@ -1,0 +1,7 @@
+package com.company.myapp.controller;
+
+@Controller
+@RequestMapping("/free/")
+public class FreeController {
+
+}
